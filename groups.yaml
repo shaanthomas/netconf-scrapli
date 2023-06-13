@@ -1,0 +1,8 @@
+---
+
+cisco_group_xe:
+    platform: cisco_iosxe
+
+cisco_group_ios:
+    platform: cisco_ios
+ 

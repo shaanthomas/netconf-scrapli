@@ -1,0 +1,29 @@
+---
+R1:
+      hostname: 172.16.83.134
+      groups:
+            - cisco_group_xe
+      data:           
+          location: esxi
+          alias: csr1
+          
+
+R2:
+      hostname: 172.16.83.138
+      groups:
+            - cisco_group_xe
+      data:
+            location: esxi
+            alias: csr2
+
+csr3:
+      hostname: 172.16.83.139
+      groups:
+            - cisco_group_xe
+      data:
+            location: esxi
+            alias: csr3
+
+# R1:
+#       hostname: 172.16.100.2
+#       groups:

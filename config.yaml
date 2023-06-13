@@ -1,0 +1,11 @@
+---
+inventory:
+    plugin: SimpleInventory
+    options:
+        host_file: "/Users/shaan/AUTO/hosts.yaml"
+        group_file: "/Users/shaan/AUTO/groups.yaml"
+        defaults_file: "/Users/shaan/AUTO/defaults.yaml"
+runner:
+    plugin: threaded
+    options:
+        num_workers: 100
